@@ -1,0 +1,15 @@
+# %%
+
+# PARA IMPORTAR A BIBLIOTECA TODA, UTILIZAMOS IMPORT
+import math
+
+# PARA IMPORTAR APENAS UM MÉTODO ESPECIFICO DELA, USAMOS FROM
+from math import pi, e
+
+print(pi)
+print(e)
+
+print(math.sqrt(9))
+
+# TAMBÉM PODEMOS APELIDAR A BIBLIOTECA IMPORTADA
+import math as mh
