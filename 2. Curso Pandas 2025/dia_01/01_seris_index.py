@@ -1,0 +1,28 @@
+# %%
+
+import pandas as pd
+
+serie = pd.Series([23, 45, 89, 55, 67, 21])
+
+# SERIES TEM OS INDICES IGUAIS A UMA LISTA, MAS
+# COM DETALHES IMPORTANTES
+
+# %%
+
+# PEGA O PRIMEIRO
+print(serie[0])
+
+# %%
+
+# ISSO AQUI NÃO FUNCIONA PARA PEGAR O ÚLTIMO, DA ERRO
+print(serie[-1])
+# DA O ERRO POR QUE OS INDICES SÃO QUE NEM AS CHAVES
+# DO DICIONÁRIO, OU SEJA, NÃO EXISTE UM INDICE COM
+# O NOME -1, POR ISSO DA ERRO
+
+# %%
+
+# PARA USAR O INDICE IGUAL A UMA LISTA, USAMOS O
+# iloc[] PRESENTE NO PANDAS
+print(serie.iloc[0]) # PRIMEIRO DA SERIE
+print(serie.iloc[-1]) # ÚLTIMO DA SERIE
