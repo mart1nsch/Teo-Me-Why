@@ -49,3 +49,11 @@ print(martin[-2:])
 
 # INVERTER A ORDEM DOS ELEMENTOS DE UM ARRAY
 print(martin[::-1])
+
+# %%
+
+# FAZER UMA CÓPIA DA LISTA SEM COPIAR AS
+# POSIÇÕES DA MEMÓRIA DA ORIGINAL
+a = [1, 3, 6, 4]
+b = a.copy()
+b
